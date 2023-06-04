@@ -28,9 +28,10 @@ public class Location extends Vertex  {
     }
     
   @Override
+ //this new comment
   //overrite displayInfo() method from Vertex class
     public void displayInfo(){
-        System.out.print("loc. " + (char)(Integer.parseInt(getLabel())+65)+" : city " );
+        System.out.print("loc. " + (char)(Integer.parseInt(getLabel())+65)+" : city " +1);
         
     } 
     
